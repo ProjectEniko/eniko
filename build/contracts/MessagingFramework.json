@@ -1,0 +1,441 @@
+{
+  "contractName": "MessagingFramework",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address payable",
+          "name": "eniko_",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "destroy",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.7.5+commit.eb77ed08\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address payable\",\"name\":\"eniko_\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"destroy\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/C/Users/Jonathan/OneDrive/Project Eniko/Eniko/contracts/MessagingFramework.sol\":\"MessagingFramework\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Jonathan/OneDrive/Project Eniko/Eniko/contracts/Eniko.sol\":{\"keccak256\":\"0xcbbe1240e86d983ac65354e9573ad88a111082476e09c6fb8871a4b11e5e37d0\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://853d7907ac9b02fb7903e3484f565c25f6da88d8832676e0ae2b2a8281d51358\",\"dweb:/ipfs/QmejZChcTvGPjz5CVYxncioZGLBj7rCUJ9SwWCJ7tBjHa3\"]},\"/C/Users/Jonathan/OneDrive/Project Eniko/Eniko/contracts/MessagingFramework.sol\":{\"keccak256\":\"0x76e9dd684d005b9b8e178b5ecdc68a9201d7c84daca11f403e66b8f7c94f7385\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://b3bbd6b52344d94474edde2f171408ca8c37860afa5b52d4f6101ec7d758465a\",\"dweb:/ipfs/QmYc6Vsn9cgjNkLF6xG7Fyyx9fxt3vD7at93ww5uRiov64\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506040516101213803806101218339818101604052602081101561003357600080fd5b5051600080546001600160a01b039092166001600160a01b031990921691909117905560bd806100646000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806383197ef014602d575b600080fd5b60336035565b005b6000546001600160a01b031633146079576040805162461bcd60e51b815260206004820152600360248201526234303360e81b604482015290519081900360640190fd5b6000546001600160a01b0316fffea264697066735822122052ec22392273c19004f6caf2de8729acf9b87e93b26a04d741bc8d7e69275a4964736f6c63430007050033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806383197ef014602d575b600080fd5b60336035565b005b6000546001600160a01b031633146079576040805162461bcd60e51b815260206004820152600360248201526234303360e81b604482015290519081900360640190fd5b6000546001600160a01b0316fffea264697066735822122052ec22392273c19004f6caf2de8729acf9b87e93b26a04d741bc8d7e69275a4964736f6c63430007050033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "89:121:11:-:0;;;138:69;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;138:69:11;185:5;:14;;-1:-1:-1;;;;;185:14:11;;;-1:-1:-1;;;;;;185:14:11;;;;;;;;;89:121;;;;;;",
+  "deployedSourceMap": "89:121:11:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;3159:112:10;;;:::i;:::-;;;3220:5;;-1:-1:-1;;;;;3220:5:10;3206:10;:19;3198:35;;;;;-1:-1:-1;;;3198:35:10;;;;;;;;;;;;-1:-1:-1;;;3198:35:10;;;;;;;;;;;;;;;3257:5;;-1:-1:-1;;;;;3257:5:10;3244:19",
+  "source": "// SPDX-License-Identifier: GPL-3.0\r\npragma solidity ^0.7.5;\r\n\r\nimport './Eniko.sol';\r\n\r\ncontract MessagingFramework is EnikoApp {\r\n\r\n    constructor(address payable eniko_) {\r\n        eniko = eniko_;\r\n    }\r\n}",
+  "sourcePath": "C:/Users/Jonathan/OneDrive/Project Eniko/Eniko/contracts/MessagingFramework.sol",
+  "ast": {
+    "absolutePath": "/C/Users/Jonathan/OneDrive/Project Eniko/Eniko/contracts/MessagingFramework.sol",
+    "exportedSymbols": {
+      "Eniko": [
+        5606
+      ],
+      "EnikoApp": [
+        5625
+      ],
+      "MessagingFramework": [
+        5641
+      ]
+    },
+    "id": 5642,
+    "license": "GPL-3.0",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 5627,
+        "literals": [
+          "solidity",
+          "^",
+          "0.7",
+          ".5"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "37:23:11"
+      },
+      {
+        "absolutePath": "/C/Users/Jonathan/OneDrive/Project Eniko/Eniko/contracts/Eniko.sol",
+        "file": "./Eniko.sol",
+        "id": 5628,
+        "nodeType": "ImportDirective",
+        "scope": 5642,
+        "sourceUnit": 5626,
+        "src": "64:21:11",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 5629,
+              "name": "EnikoApp",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 5625,
+              "src": "120:8:11",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_EnikoApp_$5625",
+                "typeString": "contract EnikoApp"
+              }
+            },
+            "id": 5630,
+            "nodeType": "InheritanceSpecifier",
+            "src": "120:8:11"
+          }
+        ],
+        "contractDependencies": [
+          5625
+        ],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 5641,
+        "linearizedBaseContracts": [
+          5641,
+          5625
+        ],
+        "name": "MessagingFramework",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 5639,
+              "nodeType": "Block",
+              "src": "174:33:11",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 5637,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 5635,
+                      "name": "eniko",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 5608,
+                      "src": "185:5:11",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 5636,
+                      "name": "eniko_",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 5632,
+                      "src": "193:6:11",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
+                      }
+                    },
+                    "src": "185:14:11",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address_payable",
+                      "typeString": "address payable"
+                    }
+                  },
+                  "id": 5638,
+                  "nodeType": "ExpressionStatement",
+                  "src": "185:14:11"
+                }
+              ]
+            },
+            "id": 5640,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 5633,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 5632,
+                  "mutability": "mutable",
+                  "name": "eniko_",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 5640,
+                  "src": "150:22:11",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address_payable",
+                    "typeString": "address payable"
+                  },
+                  "typeName": {
+                    "id": 5631,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "150:15:11",
+                    "stateMutability": "payable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address_payable",
+                      "typeString": "address payable"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "149:24:11"
+            },
+            "returnParameters": {
+              "id": 5634,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "174:0:11"
+            },
+            "scope": 5641,
+            "src": "138:69:11",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 5642,
+        "src": "89:121:11"
+      }
+    ],
+    "src": "37:173:11"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/C/Users/Jonathan/OneDrive/Project Eniko/Eniko/contracts/MessagingFramework.sol",
+      "exportedSymbols": {
+        "Eniko": [
+          5606
+        ],
+        "EnikoApp": [
+          5625
+        ],
+        "MessagingFramework": [
+          5641
+        ]
+      },
+      "license": "GPL-3.0"
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.7",
+            ".5"
+          ]
+        },
+        "id": 5627,
+        "name": "PragmaDirective",
+        "src": "37:23:11"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 5626,
+          "absolutePath": "/C/Users/Jonathan/OneDrive/Project Eniko/Eniko/contracts/Eniko.sol",
+          "file": "./Eniko.sol",
+          "scope": 5642,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 5628,
+        "name": "ImportDirective",
+        "src": "64:21:11"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "contractDependencies": [
+            5625
+          ],
+          "contractKind": "contract",
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            5641,
+            5625
+          ],
+          "name": "MessagingFramework",
+          "scope": 5642
+        },
+        "children": [
+          {
+            "attributes": {},
+            "children": [
+              {
+                "attributes": {
+                  "name": "EnikoApp",
+                  "referencedDeclaration": 5625,
+                  "type": "contract EnikoApp"
+                },
+                "id": 5629,
+                "name": "UserDefinedTypeName",
+                "src": "120:8:11"
+              }
+            ],
+            "id": 5630,
+            "name": "InheritanceSpecifier",
+            "src": "120:8:11"
+          },
+          {
+            "attributes": {
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "modifiers": [
+                null
+              ],
+              "name": "",
+              "scope": 5641,
+              "stateMutability": "nonpayable",
+              "virtual": false,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "eniko_",
+                      "scope": 5640,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "address payable",
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "address",
+                          "stateMutability": "payable",
+                          "type": "address payable"
+                        },
+                        "id": 5631,
+                        "name": "ElementaryTypeName",
+                        "src": "150:15:11"
+                      }
+                    ],
+                    "id": 5632,
+                    "name": "VariableDeclaration",
+                    "src": "150:22:11"
+                  }
+                ],
+                "id": 5633,
+                "name": "ParameterList",
+                "src": "149:24:11"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 5634,
+                "name": "ParameterList",
+                "src": "174:0:11"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "attributes": {
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "operator": "=",
+                          "type": "address payable"
+                        },
+                        "children": [
+                          {
+                            "attributes": {
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 5608,
+                              "type": "address payable",
+                              "value": "eniko"
+                            },
+                            "id": 5635,
+                            "name": "Identifier",
+                            "src": "185:5:11"
+                          },
+                          {
+                            "attributes": {
+                              "overloadedDeclarations": [
+                                null
+                              ],
+                              "referencedDeclaration": 5632,
+                              "type": "address payable",
+                              "value": "eniko_"
+                            },
+                            "id": 5636,
+                            "name": "Identifier",
+                            "src": "193:6:11"
+                          }
+                        ],
+                        "id": 5637,
+                        "name": "Assignment",
+                        "src": "185:14:11"
+                      }
+                    ],
+                    "id": 5638,
+                    "name": "ExpressionStatement",
+                    "src": "185:14:11"
+                  }
+                ],
+                "id": 5639,
+                "name": "Block",
+                "src": "174:33:11"
+              }
+            ],
+            "id": 5640,
+            "name": "FunctionDefinition",
+            "src": "138:69:11"
+          }
+        ],
+        "id": 5641,
+        "name": "ContractDefinition",
+        "src": "89:121:11"
+      }
+    ],
+    "id": 5642,
+    "name": "SourceUnit",
+    "src": "37:173:11"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.7.5+commit.eb77ed08.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-03-30T18:44:42.721Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

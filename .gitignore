@@ -1,0 +1,4 @@
+truffle-config.js
+secrets.js
+node_modules
+.vscode
