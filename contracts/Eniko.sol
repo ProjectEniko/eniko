@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.7.5;
 
 contract Eniko {
@@ -106,7 +106,7 @@ contract Eniko {
 // All apps must be EnikoApps
 contract EnikoApp {
 
-    address payable eniko;                    // The root eniko contract from which this consequence derives.
+    address payable eniko;                    // The root eniko contract from which the ap belongs.
 
     function destroy() external {
         require(msg.sender == eniko, "403");

@@ -2,3 +2,13 @@ truffle-config.js
 secrets.js
 node_modules
 .vscode
+package.json
+package-lock.json
+test
+migrations
+docs
+bin
+contracts/PurposeConsequenceDeployer.sol
+build/contracts/PurposeConsequenceDeployer.json
+contracts/Migrations.sol
+build/contracts/Migrations.json
