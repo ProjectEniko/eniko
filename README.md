@@ -49,7 +49,7 @@ Full details of contract implementations can be found on the [Wiki](https://gith
 
 
 # Contributing
-Pull requests are welcome. For major changes, please join the [Dev Team](https://github.com/orgs/ProjectEniko/teams/devteam) and open an [issue](https://github.com/ProjectEniko/eniko/issues0) first to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an [issue](https://github.com/ProjectEniko/eniko/issues0) first to discuss what you would like to change.
 
 A full list of open projects can be found on the [Projects page](https://github.com/ProjectEniko/eniko/projects). We welcome all offers to contribute towards these projects.
 
